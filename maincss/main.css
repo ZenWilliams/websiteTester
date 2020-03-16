@@ -1,0 +1,26 @@
+@font-face {
+        font-family: my_font1;
+        src: url(./../externalCss/BakingLion.otf);
+    }
+@font-face {
+    font-family: my_font2;
+    src: url(./../externalCss/deadpack.ttf);
+}
+#header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blue;
+}
+p {
+    font-family: my_font1;
+    font-size: 2em;
+}
+#footer{
+    font-family: my_font2;
+}
+image{
+    size: 0.25em;
+    background-position: 300px 300px;
+}
+#main{
+    size: 5em em;
+}
