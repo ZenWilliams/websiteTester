@@ -1,43 +1,66 @@
-@font-face {
-        font-family: my_font1;
-        src: url(./../externalCss/BakingLion.otf);
-    }
-@font-face {
-    font-family: my_font2;
-    src: url(./../externalCss/deadpack.ttf);
+.amazon-img{
+    width: 5em;
+    height: 2em;
 }
-#header{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.header{
+    text-align: center;
+}
+.line-img{
+    width: 100%;
+    height: 0.1em;
+    background-color: white;
+}
+.separator{
+    display: inline-block;
+    width: 20px;
+}
+.footer a{
+    text-decoration: none;
     color: blue;
 }
-p {
-    font-family: my_font1;
-    font-size: 2em;
-    word-break: break-all;
+.footer{
+    text-align: center;
 }
-#footer{
-    font-family: my_font2;
-}
-image{
-    size: 0.25em;
-    background-position: 300px 300px;
-}
-#main{
-    size: 5em em;
-}
-.footer_link{
-    display: block;
-    width: 600px;
+.login{
+    position: relative;
+    width: 300px;
     height: 400px;
-    background: orangered;
-    text-align: center;
-    line-height: 300px;
+    -webkit-webkit: border radius 2px;
+    -moz-webkit: border radius 2px;
+    -ms-webkit: border radius 2px;
+    -o-webkit: border radius 2px;
+    border: 0.1px gray solid;
+    margin: 5px auto;
+    padding: 25px;
 }
-.placeHolder{
-display: inline-block;
-width: 50px;
+.login p{
+    font-weight: bold;
 }
-div{
+.fourth-level a{
+    float: right;
+}
+.placeholder{
+    width:2px;
+    height: 10px;
+}
+.new-to-amazon{
+    background-color: white;
+    text-decoration-line: none;
+    text-decoration-color: gray;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    z-index: 99;
+}
+.seventh-level{
     text-align: center;
-    text-decoration-color: orchid;
+    line-height: 2px;
+    position: relative;
+}
+.decorative-line{
+    border-top: 0.8px solid black;
+    position: absolute;
+    width: 100%;
+    top:50%;
+    z-index: 9;
 }
